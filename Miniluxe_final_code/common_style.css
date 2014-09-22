@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2014, 9:28:26 AM
+    Author     : click86
+*/
+
+body {
+    margin:0;
+    padding:0;
+}
+.modal.fade {
+    top: -90%;
+}
+.modal.fade.in {
+    top: 25%;
+}
+#wrapper{
+    margin-top:100px;
+}
+thead > tr{
+    height: 75px;
+}
+thead > tr > th {
+    text-align: initial !important;
+    vertical-align: middle !important;
+}
+.popup-header{
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+#msg-body{
+    text-align: center;
+    color: green;
+    font-size: 16px;
+}
+
+.table-alignment
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+}
+
+.table-alignment1
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+    padding-bottom: 2%;
+}
+
+.form-signin {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 100px auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+.wrapper{width: 80%;margin: 0 auto;}
+#data{ margin-top:20px; }
+.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+media
+{
+    /*box-shadow:0px 0px 4px -2px #000;*/
+    margin: 20px 0;
+    padding:30px;
+
+}
+.media:first-child {
+    margin-top: 0;
+    margin-left: 80px !important;
+}            
+.btn-group>.btn, .btn-group-vertical>.btn {
+    background: #bbc4f6;
+    color: #fff;
+    border-radius:0px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.pull-right {
+    float: right!important;
+    margin-top: 38px;
+} 
+
+
+#info{
+    font-size: 16px;
+    border: 1px solid #bbc4f6;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    clear: both;
+    padding: 1%;
+    font-family: sans-serif;
+    background: #EDF0FD;
+    border-radius: 4px;
+    line-height: 32px;
+    margin-top: 100px;
+}
+
+#image_dynamic{
+    float: left;
+    min-width: 224px;
+    margin-right: 22px;
+
+}
+#image_dynamic img{
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
+#relateddata{
+    float: left;
+    font-size: 18px;
+}
+
+
+tfoot {
+    display: table-header-group;
+}
+
+/* ---- modal css ----- */
+.modal-body{
+    padding: 25px;
+}
+.popup-header{
+    width: auto;
+    height: 36px;
+}
+.form-group{
+    width: 140px;
+    float: left;
+}
+.form-control{
+    width: 350px;
+}
+#button{
+    margin-top: 20px;
+    text-align: center;
+}
+#basicModal{
+    height: 270px;
+}
+.btn1{
+    background-color: #BBC4F6;
+    width: 140px;
+    height: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    outline: none !important;
+    box-shadow: none !important;
+}
+#changeSuccess{
+    position: absolute;
+    margin-top: -28px;
+}
